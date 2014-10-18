@@ -13,7 +13,7 @@ import (
 	"google.golang.org/cloud/storage"
 )
 
-var SECRETKEY = "f6ce4fa4b8c5a9e9d5a50d877b4461b3050e888a97edbc7a5da71638ec0f5c40" //change this to something secure so nobody except you can upload stuff
+var SECRETKEY = "" //change this to something secure so nobody except you can upload stuff
 
 var lookUp = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 func randomFileName(orig string) (string) {
